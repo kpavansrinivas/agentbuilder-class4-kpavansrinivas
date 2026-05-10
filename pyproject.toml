@@ -1,0 +1,7 @@
+[project]
+name = "agentbuilder-class4-nlsql"
+version = "0.1.0"
+description = "NL-to-SQL pipeline + multi-tool agent notebooks."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []

@@ -1,0 +1,54 @@
+{
+  "Falcon 1": {
+    "first_flight": "2006-03-24",
+    "height_m": 21,
+    "diameter_m": 1.7,
+    "mass_kg": 30000,
+    "thrust_kn": 454,
+    "payload_to_leo_kg": 670,
+    "stages": 2,
+    "reusable": false,
+    "active": false,
+    "manufacturer": "SpaceX",
+    "notes": "First privately-developed liquid rocket to reach orbit. Retired in 2009."
+  },
+  "Falcon 9": {
+    "first_flight": "2010-06-04",
+    "height_m": 70,
+    "diameter_m": 3.7,
+    "mass_kg": 549054,
+    "thrust_kn": 7607,
+    "payload_to_leo_kg": 22800,
+    "stages": 2,
+    "reusable": true,
+    "active": true,
+    "manufacturer": "SpaceX",
+    "notes": "Workhorse rocket. First stage is reusable - lands on a droneship or back at the launch site."
+  },
+  "Falcon Heavy": {
+    "first_flight": "2018-02-06",
+    "height_m": 70,
+    "diameter_m": 12.2,
+    "mass_kg": 1420788,
+    "thrust_kn": 22819,
+    "payload_to_leo_kg": 63800,
+    "stages": 2,
+    "reusable": true,
+    "active": true,
+    "manufacturer": "SpaceX",
+    "notes": "Heavy-lift variant with three Falcon 9 cores strapped together. All three boosters are reusable."
+  },
+  "Starship": {
+    "first_flight": "2021-03-03",
+    "height_m": 120,
+    "diameter_m": 9,
+    "mass_kg": 5000000,
+    "thrust_kn": 74000,
+    "payload_to_leo_kg": 250000,
+    "stages": 2,
+    "reusable": true,
+    "active": true,
+    "manufacturer": "SpaceX",
+    "notes": "Fully reusable super-heavy rocket. Designed for Mars and beyond. Currently in test campaign."
+  }
+}
