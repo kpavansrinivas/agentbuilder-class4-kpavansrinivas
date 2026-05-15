@@ -10,8 +10,9 @@
     "reusable": false,
     "active": false,
     "manufacturer": "SpaceX",
-    "notes": "First privately-developed liquid rocket to reach orbit. Retired in 2009."
-  },
+    "notes": "First privately-developed liquid rocket to reach orbit. Retired in 2009.",
+    "crew_capacity":5
+   },
   "Falcon 9": {
     "first_flight": "2010-06-04",
     "height_m": 70,
@@ -23,8 +24,9 @@
     "reusable": true,
     "active": true,
     "manufacturer": "SpaceX",
-    "notes": "Workhorse rocket. First stage is reusable - lands on a droneship or back at the launch site."
-  },
+    "notes": "Workhorse rocket. First stage is reusable - lands on a droneship or back at the launch site.",
+    "crew_capacity":10
+    },
   "Falcon Heavy": {
     "first_flight": "2018-02-06",
     "height_m": 70,
@@ -36,7 +38,8 @@
     "reusable": true,
     "active": true,
     "manufacturer": "SpaceX",
-    "notes": "Heavy-lift variant with three Falcon 9 cores strapped together. All three boosters are reusable."
+    "notes": "Heavy-lift variant with three Falcon 9 cores strapped together. All three boosters are reusable.",
+    "crew_capacity":20
   },
   "Starship": {
     "first_flight": "2021-03-03",
@@ -49,6 +52,7 @@
     "reusable": true,
     "active": true,
     "manufacturer": "SpaceX",
-    "notes": "Fully reusable super-heavy rocket. Designed for Mars and beyond. Currently in test campaign."
+    "notes": "Fully reusable super-heavy rocket. Designed for Mars and beyond. Currently in test campaign.",
+    "crew_capacity":10
   }
 }
