@@ -103,3 +103,12 @@ sqlite3 spacex_launches.db < seed.sql
 ## Questions and feedback
 
 Bring them to class. Or open an issue on this repo.
+
+
+## My Observation
+1. Pipeline vs Agent Behavior
+    The pipeline works best for simple single-source queries because it is predictable and efficient. The agent becomes useful when the question requires chaining multiple tools or data sources together, such as querying SQL first and then fetching rocket specifications from another tool.
+2. Model Choice Affects Tool Usage
+    Changing from a stronger model like GPT-4o mini to a weaker model like GPT-3.5 Turbo changed how the agent reasoned. Stronger models followed proper multi-step tool chains, while weaker models sometimes skipped tools entirely and answered from internal knowledge, which can silently bypass the real data layer.
+3. Detailed Print Statements Help Debug Agent Reasoning
+    Adding verbose print statements exposed the full agent workflow: message history, tool calls, arguments, intermediate observations, and response sizes. This made it easier to identify subtle failures such as wrong tool targets, unnecessary tool calls, memory growth, and how the agent chains reasoning across steps.
